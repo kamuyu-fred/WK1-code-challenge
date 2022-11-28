@@ -1,0 +1,26 @@
+{
+  "name": "wk1-code-challenge",
+  "version": "1.0.0",
+  "description": "Week 1 Code challenge",
+  "main": "Speed-test-calc.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamuyu-fred/WK1-code-challenge.git"
+  },
+  "keywords": [
+    "Code",
+    "Challenge"
+  ],
+  "author": "Fred Kamuyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamuyu-fred/WK1-code-challenge/issues"
+  },
+  "homepage": "https://github.com/kamuyu-fred/WK1-code-challenge#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
