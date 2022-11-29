@@ -2,8 +2,8 @@ let personalRelief = 2400;
 let NHIF;
 let NSSF = 400;
 const prompt = require("prompt-sync")();            //defining the prompt 
-function calculateTax(){
-    let Paye = 0;
+function calculateTax(){                             // Tax Calculation function
+    let Paye = 0;                                           
     let gross = prompt("Enter gross amount :")
     let taxableIncome = gross - (calculateNHIF(gross) + NSSF + personalRelief)
     if(taxableIncome > 0 && taxableIncome <= 24000){
@@ -17,7 +17,7 @@ function calculateTax(){
     return (taxableIncome - Paye)
     return Paye
 }
-const calculateNHIF = function (gross){
+const calculateNHIF = function (gross){           //NHIF calculation
     if (gross > 0 && gross <= 5999) {
         NHIF = 150 * 0.85;
         return NHIF
