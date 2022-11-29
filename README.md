@@ -20,12 +20,12 @@ Run with `node grading-calc.js`
 #Tax Calculator
 
 This takes a Gross salary input and calculates the Net salary, 
-Run with `tax-calc.js`
+Run with `node tax-calc.js`
 
 #Speed Check calculator
 
 This calculates the value of Driving License demerit points based on how far above the speed limit the driver was driving at.
-Run with `speed.js`
+Run with `node speed.js`
 
 Author : Fred Kamuyu
 

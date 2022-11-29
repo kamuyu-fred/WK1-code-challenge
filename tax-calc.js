@@ -71,9 +71,9 @@ const calculateNHIF = function (gross){
     }
 }
 console.log(calculateTax());
-// ecalculateNHIF()
+// calculateNHIF()
 // // calculateTax()
 // // calculateNSSF()
 // // console.log(Paye);
 // console.log(NHIF);
-// console.log(NSSF);
+//console.log(NSSF);
