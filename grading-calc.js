@@ -2,7 +2,8 @@
 const prompt = require("prompt-sync")();
 let numberGrade = prompt("Enter Student marks : ")
 let letterGrade = function(numberGrade) {
-    let grade;
+    
+  let grade;
     if (numberGrade >= 79) {
       grade = 'A';
     } else if (numberGrade >= 60) {

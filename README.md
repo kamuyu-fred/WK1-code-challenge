@@ -10,7 +10,7 @@ This repo hosts three assignments for the Week 1 coding challenge.
 
 Setup
 
-Run the `npm-install` command to install project dependencies.
+Run the `npm-install` command to install project dependencies. Input and output happens in terminal.
 
 #Grade Calculator
 
@@ -24,3 +24,6 @@ This takes a Gross salary input and calculates the Net salary,
 
 This calculates the value of Driving License demerit points based on how far above the speed limit the driver was driving at.
 
+Author : Fred Kamuyu
+
+License : ISC
