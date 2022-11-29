@@ -4,7 +4,7 @@
 
 **This repo hosts three assignments for the Week 1 coding challenge.**
 
--A grade calculator (license-demerit.js)
+<li>-A grade calculator (license-demerit.js)</li>
 -A tax calculator (tax-calc.js)
 -A speed check calculator (speed.js)
 
