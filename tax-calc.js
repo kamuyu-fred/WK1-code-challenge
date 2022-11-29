@@ -1,12 +1,11 @@
-let personalRelief;
-let contribution;
+let personalRelief = 2400;
 let NHIF;
 let NSSF = 400;
 const prompt = require("prompt-sync")();            //defining the prompt 
 function calculateTax(){
     let Paye = 0;
     let gross = prompt("Enter gross amount :")
-    let taxableIncome = gross - (calculateNHIF(gross) + NSSF + personalRelief + contribution )
+    let taxableIncome = gross - (calculateNHIF(gross) + NSSF + personalRelief)
     if(taxableIncome > 0 && taxableIncome <= 24000){
         Paye = taxableIncome*0.1;
     } else if (taxableIncome >= 24001 && taxableIncome <= 32333) {
@@ -22,7 +21,7 @@ const calculateNHIF = function (gross){
         NHIF = 150 * 0.85;
         return NHIF
     } else if (gross >= 6000 && gross <= 7999) {
-        NHIF = 300 * 0.85;
+        NHIF = 300 * 0.85; 
         return NHIF
     } else if (gross >= 8000 && gross <= 11999) {
         NHIF = 400 * 0.85;
@@ -72,7 +71,7 @@ const calculateNHIF = function (gross){
     }
 }
 console.log(calculateTax());
-// calculateNHIF()
+// ecalculateNHIF()
 // // calculateTax()
 // // calculateNSSF()
 // // console.log(Paye);
