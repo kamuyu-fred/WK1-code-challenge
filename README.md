@@ -1,14 +1,14 @@
 # WK1-code-challenge
-WEEK 1 CODING CHALLENGE
+# WEEK 1 CODING CHALLENGE
 
 
-This repo hosts three assignments for the Week 1 coding challenge.
+**This repo hosts three assignments for the Week 1 coding challenge.**
 
 -A grade calculator (license-demerit.js)
 -A tax calculator (tax-calc.js)
 -A speed check calculator (speed.js)
 
-Setup
+**Setup**
 
 Run the `npm-install` command to install project dependencies. Input and output happens in terminal.
 
