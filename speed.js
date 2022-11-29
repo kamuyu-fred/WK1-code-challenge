@@ -7,8 +7,7 @@ let demeritPoints = 0;
 //checks if the speed is as required
 //outputs ok if is less than 70
 //else calculates demerit points
-//outputs demeritpoints where they are less than or equal 12
-//and license suspended where demerit points are greater than 12
+
 if (speed<= limit){
     console.log("OK")
 }else {
