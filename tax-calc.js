@@ -15,6 +15,7 @@ function calculateTax(){
         Paye = 24000 * 0.1 + (taxableIncome - 24000) * 0.25 + (taxableIncome - 8333) * 0.3;
     }
     return (taxableIncome - Paye)
+    return Paye
 }
 const calculateNHIF = function (gross){
     if (gross > 0 && gross <= 5999) {
@@ -71,9 +72,3 @@ const calculateNHIF = function (gross){
     }
 }
 console.log(calculateTax());
-// calculateNHIF()
-// // calculateTax()
-// // calculateNSSF()
-// // console.log(Paye);
-// console.log(NHIF);
-//console.log(NSSF);
