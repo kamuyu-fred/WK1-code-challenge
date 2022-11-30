@@ -11,7 +11,7 @@
 
 ## Setup 
 
-Run the `npm-install` command to install project dependencies. Input and output happens in terminal.
+Run the `npm install` command to install project dependencies. Input and output happens in terminal.
 
 ### Grade Calculator
 
